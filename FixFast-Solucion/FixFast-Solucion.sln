@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixFast-Desk-Vista", "FixFast-Desk-Vista\FixFast-Desk-Vista.csproj", "{4C57C229-14A8-475D-9A10-3F4612D0FCE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFix-DataBase", "FastFix-DataBase\FastFix-DataBase.csproj", "{D57B4E4C-C508-4AAE-8D0A-E9EC7201944E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixFast-Negocio", "FixFast-Negocio\FixFast-Negocio.csproj", "{BF1CD7D7-A54F-4D57-B691-637492FF8E72}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C57C229-14A8-475D-9A10-3F4612D0FCE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C57C229-14A8-475D-9A10-3F4612D0FCE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C57C229-14A8-475D-9A10-3F4612D0FCE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C57C229-14A8-475D-9A10-3F4612D0FCE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D57B4E4C-C508-4AAE-8D0A-E9EC7201944E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D57B4E4C-C508-4AAE-8D0A-E9EC7201944E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D57B4E4C-C508-4AAE-8D0A-E9EC7201944E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D57B4E4C-C508-4AAE-8D0A-E9EC7201944E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF1CD7D7-A54F-4D57-B691-637492FF8E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1CD7D7-A54F-4D57-B691-637492FF8E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1CD7D7-A54F-4D57-B691-637492FF8E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1CD7D7-A54F-4D57-B691-637492FF8E72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
